@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(pexels-content-pixie.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100vh; */
+  overflow: auto;
+}
+
+.inProgress {
+  background: linear-gradient(
+    to bottom right,
+    rgba(91, 137, 173, 0.688),
+    rgba(194, 145, 108, 0.677)
+  );
+}
+
+.done {
+  background: linear-gradient(
+    to bottom right,
+    rgba(91, 173, 154, 0.848),
+    rgba(194, 145, 108, 0.837)
+  );
+}
+
+.form {
+  background: linear-gradient(
+    to bottom right,
+    rgba(68, 180, 109, 0.711),
+    rgba(118, 114, 227, 0.632)
+  );
+  border: none;
+  outline: none;
+}
+
+.done,
+.inProgress {
+  box-shadow: 0 8px 20px 0 rgba(103, 80, 48, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.form:hover {
+  background: linear-gradient(
+    to right bottom,
+    rgb(54, 85, 76),
+    rgba(188, 192, 144, 0.732),
+    rgb(139, 126, 96)
+  );
+}
+
+.focus {
+  outline: none;
+  border: none;
+}
+
+.listLoad {
+  background-color: rgba(110, 90, 68, 0.39);
+}
+
+.iTodo {
+  background-color: #f5f5dc4f;
+  box-shadow: 0 8px 20px 0 rgba(132, 116, 92, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7.5px);
+  /* border-radius: 10px; */
+}
